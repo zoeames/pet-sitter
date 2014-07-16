@@ -127,7 +127,7 @@ describe('Pet', function(){
     it('should not resurrect the pet', function(){
       var fluffy = new Pet('fluffy', 3,'female', 'sloth');
       fluffy.isZombie = true;
-      fluffy.wins = 3; 
+      fluffy.wins = 8; 
   });
     it('should not resurrect the pet', function(){
       var fluffy = new Pet('fluffy', 3,'female', 'sloth');
